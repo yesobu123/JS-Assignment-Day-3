@@ -1,0 +1,43 @@
+function testNum(a) {
+    let result;
+    if (a%2 == 0) {
+      result = 'even';
+    } else {
+      result = 'odd';
+    }
+    return result;
+  }
+  
+  console.log(testNum(3));
+
+
+
+
+
+
+  var os = require('os');
+console.log("Platform: " + os.platform());
+console.log("Architecture: " + os.arch());
+
+
+
+
+
+
+var grade;
+var marks = 68;
+
+if (marks < 30) {
+  grade = 'Fail';
+}
+else if (marks < 60) {
+  grade = 'Pass'
+}
+else if (marks < 90) {
+  grade = 'Distinction'
+}
+else {
+  grade = 'High Distinction';
+}
+
+console.log(grade)
